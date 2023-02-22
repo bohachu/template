@@ -16,5 +16,6 @@ if __name__ == '__main__':
     print(f'Hi! The package name is {args.package_name}.')
 
 '''
-curl -sS https://raw.githubusercontent.com/bohachu/template/master/py_package/py_package6.py | python - --package_name my_pkg
+current_folder=$(basename "$PWD")
+curl -sS https://raw.githubusercontent.com/bohachu/template/master/py_package/py_package6.py | python - --package_name $current_folder
 '''
