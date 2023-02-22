@@ -14,3 +14,7 @@ if __name__ == '__main__':
         s(f"curl -O {url_prefix + filename}")
     open('package.yml', 'w').write(f'''package_name: {args.package_name}\n''')
     print(f'Hi! The package name is {args.package_name}.')
+
+'''
+curl -sS https://raw.githubusercontent.com/bohachu/template/master/py_package/py_package5.py | python - --package_name my_pkg
+'''
