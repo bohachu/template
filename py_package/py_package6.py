@@ -6,7 +6,7 @@ if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='Description of your script')
     parser.add_argument('--package_name', default='default_package_name', help='Name of the package')
     args = parser.parse_args()
-    url_prefix = "https://github.com/bohachu/template/blob/master/py_package/clone_files/"
+    url_prefix = "https://raw.githubusercontent.com/bohachu/template/master/py_package/clone_files/"
     files = [
         "go.py", "package.yml", "requirements.txt", "setup.py", "upload_pip.py"
     ]
@@ -16,5 +16,5 @@ if __name__ == '__main__':
     print(f'Hi! The package name is {args.package_name}.')
 
 '''
-curl -sS https://raw.githubusercontent.com/bohachu/template/master/py_package/py_package5.py | python - --package_name my_pkg
+curl -sS https://raw.githubusercontent.com/bohachu/template/master/py_package/py_package6.py | python - --package_name my_pkg
 '''
