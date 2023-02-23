@@ -14,7 +14,7 @@ setup(
     install_requires=requirements,
     entry_points={
         "console_scripts": [
-            f"mycommand={yml["package_name"]}.__main__:main"
+            f"mycommand={yml['package_name']}.__main__:main"
         ]
     }
 )
