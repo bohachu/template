@@ -12,6 +12,7 @@ if __name__ == '__main__':
     ]
     for filename in files:
         s(f"curl -O {url_prefix + filename}")
+    s(f"chmod +x *.py")
     open('package.yml', 'w').write(f'''package_name: {args.package_name}\n''')
     print(f'Hi! The package name is {args.package_name}.')
 
