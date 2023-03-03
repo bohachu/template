@@ -1,0 +1,4 @@
+# 2023-03-03 12:44 bowen
+todo 改寫讓 go.py 可以執行之前先把 pip install pyyaml 安裝一下
+todo curl 執行時，可以幫忙建立套件的目錄
+todo 幫忙建立套件目錄下面的 __init__.py , __main__.py
